@@ -1,0 +1,24 @@
+########################################################################
+#
+# Configuration file for "make" session. 
+#
+########################################################################
+
+########################################################################
+#
+# Note: 
+# Add path of "tools" directory (in this folder) 
+# to the HEAD of SYSTEM PATH variable
+#
+########################################################################
+
+PROJ_ROOT		=${HOME}/cortex-m3/lpc17xx.cmsis.driver.library
+CMCORE_TYPE		=CM3
+DEVICE			=LPC17xx
+MANUFACTURE		=NXP
+TOOL 			=gnu
+DEBUG_MODE		=1
+
+
+GNU_INSTALL_ROOT	=${HOME}/x-tools/arm-bare_newlib_cortex_m3_nommu-eabi
+GNU_VERSION		=4.4.1
